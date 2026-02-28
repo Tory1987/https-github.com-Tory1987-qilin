@@ -1,0 +1,17 @@
+project_id = "wqxnprkfpjwrwrrqwlkm"
+
+[functions]
+  [functions.auth-email-hook]
+    verify_jwt = false
+  [functions.push-notifications]
+    verify_jwt = false
+  [functions.elevenlabs-tts]
+    verify_jwt = false
+  [functions.heart-regen]
+    verify_jwt = false
+  [functions.admin-users]
+    verify_jwt = false
+  [functions.create-qilin-payment]
+    verify_jwt = false
+  [functions.qilin-payment-webhook]
+    verify_jwt = false
